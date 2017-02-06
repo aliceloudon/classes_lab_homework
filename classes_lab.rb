@@ -4,5 +4,9 @@ class Student
     @name = name
     @cohort = cohort
   end
+
+
+
+
 end
 
