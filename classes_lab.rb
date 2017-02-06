@@ -5,3 +5,4 @@ class Student
     @cohort = cohort
   end
 end
+

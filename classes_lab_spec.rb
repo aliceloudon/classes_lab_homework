@@ -10,4 +10,14 @@ class TestStudent < MiniTest::Test
     assert_equal(person.name, "Alice")
   end
 
+  def test_cohort
+    person = Student.new("Adam", 10)
+    assert_equal(10, person.cohort)
+  end
+
+
+
+
+
 end
+
